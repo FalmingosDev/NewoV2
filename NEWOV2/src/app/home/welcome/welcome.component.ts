@@ -36,6 +36,64 @@ export class WelcomeComponent implements OnInit {
     nav: true
   };
 
+  customOptionsforcelibraty: OwlOptions  = {
+    loop: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: false,
+    margin: 10,
+    navSpeed: 700,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 3
+      },
+      400: {
+        items: 3
+      },
+      740: {
+        items: 3
+      },
+      940: {
+        items: 3
+      }
+    },
+    nav: true
+  };
+
+
+  customOptionsforinside: OwlOptions  = {
+    loop: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: false,
+    margin: 10,
+    autoplay:true,
+    navSpeed: 10,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 2,
+        stagePadding: 50
+      },
+      400: {
+        items: 2,
+        stagePadding: 30
+      },
+      740: {
+        items: 2,
+        stagePadding: 30
+      },
+      940: {
+        items: 2,
+        stagePadding: 30 
+      }
+    },
+    nav: false
+  };
+
   constructor() { }
 
   ngOnInit(): void {

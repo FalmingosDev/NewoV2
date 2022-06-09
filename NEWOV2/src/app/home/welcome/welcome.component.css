@@ -1,3 +1,13 @@
-.owl-carousel .owl-stage-outer {
-    padding-top: 24px;
-}  
+.owl-carousel .owl-stage {
+    padding-top: 23px !important;
+}
+.clb-img-sm {
+    width: 100% !important;
+    height: 87px !important;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+.round-md-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}

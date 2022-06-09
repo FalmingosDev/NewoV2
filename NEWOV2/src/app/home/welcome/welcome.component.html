@@ -130,9 +130,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-
-                    <!-- <div class="owl-carousel owl-theme" id="celb">
-                        <div class="item">
+                    <owl-carousel-o [options]="customOptionsforcelibraty" class="sl-im-pd" id="celb">
+                        <ng-template carouselSlide>
                             <a href="#">
                                 <div class="celibraty-main-div">
                                     <div class="celb-img">
@@ -143,8 +142,8 @@
                                     </div>
                                 </div>
                             </a>
-                        </div>
-                        <div class="item">
+                        </ng-template>
+                        <ng-template carouselSlide>
                             <a href="#">
                                 <div class="celibraty-main-div">
                                 <div class="celb-img">
@@ -155,8 +154,8 @@
                                 </div>
                             </div>
                             </a>
-                        </div>
-                        <div class="item">
+                        </ng-template>
+                        <ng-template carouselSlide>
                             <a href="#">
                                 <div class="celibraty-main-div">
                                 <div class="celb-img">
@@ -167,8 +166,8 @@
                                 </div>
                             </div>
                             </a>
-                        </div>
-                        <div class="item">
+                        </ng-template>
+                        <ng-template carouselSlide>
                             <a href="#">
                                 <div class="celibraty-main-div">
                                     <div class="celb-img">
@@ -179,8 +178,8 @@
                                     </div>
                                 </div>
                             </a>
-                        </div>
-                    </div> -->
+                        </ng-template>
+                    </owl-carousel-o>
                 </div>
             </div>
           </div>
@@ -281,28 +280,28 @@
                 </div>
             </div>
                 <div class="inside_div">
-                    <div class="owl-carousel owl-theme" id="inside_id">
-                        <div class="item">
+                    <owl-carousel-o [options]="customOptionsforinside" class="sl-im-pd"  id="inside_id">
+                        <ng-template carouselSlide>
                             <div class="it_owl">
                                 <img src="assets/images/newo-ins-1.png" class="img-fluid">
                             </div>
-                        </div>
-                        <div class="item">
+                        </ng-template>
+                        <ng-template carouselSlide>
                             <div class="it_owl">
                                 <img src="assets/images/newo-ins-2.png" class="img-fluid">
                             </div>
-                        </div>
-                        <div class="item">
+                        </ng-template>
+                        <ng-template carouselSlide>
                             <div class="it_owl">
                                 <img src="assets/images/newo-ins-1.png" class="img-fluid">
                             </div>
-                        </div>
-                        <div class="item">
+                        </ng-template>
+                        <ng-template carouselSlide>
                             <div class="it_owl">
                                 <img src="assets/images/newo-ins-2.png" class="img-fluid">
                             </div>
-                        </div>
-                    </div>
+                        </ng-template>
+                    </owl-carousel-o>
                 </div>
             </div>
       </section>
@@ -401,3 +400,137 @@
           </div>
       </section>
           </div>
+
+          <div class="mobile_footer">
+            <div id="p1"><a href="#"><img src="/assets/images/footer-home.png" class="img-fluid" style="width: 30%;"></a></div> 
+            <div id="p2"><a href="#"><img src="/assets/images/foot-2-img.png" style="width: 30%;"></a></div>
+            <div id="p3"><a href="#"><img src="/assets/images/foot-3-img.png" style="width: 50%;"></a></div>
+            <div id="p4"><a href="#"><img src="/assets/images/foot-4-img.png" style="width: 30%;"></a></div> 
+            <div id="p5">
+                    <span style="cursor:pointer" onclick="openNav()"><img src="/assets/images/foot-5-img.png" style="width: 30%;"></span>
+                    
+                    <div id="mySidenav" class="sidenav">
+                        <div class="menu-div">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" data-toggle="tab" href="#useful-links">Useful Links</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" data-toggle="tab" href="#services">Services</a>
+                        </li>
+                      </ul>
+          
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div id="useful-links" class="container tab-pane active"><br>
+                          <ul class="menu-ul">
+                            <li>
+                                <a href="#"><img src="/assets/images/notification-icon.png">Notifications</a>
+                            </li>  
+                            <li>
+                                <a href="#"><img src="/assets/images/about-company-icon.png">About Company</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/blog-icon.png">Blog</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/stories-icon.png">Stories</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/review-icon.png">Reviews</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/faq-icon.png">FAQ</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/support-icon.png">Support Center</a>
+                            </li>
+                          </ul>
+                            <div class="user-round">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="user-round-img">
+                                            <img src="/assets/images/avatar.png" class="img-fluid"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="user-round-text">
+                                            <h2>Rakesh Maria<span>9812345678</span><span>pkg@gmail.com</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="user-round-toggle">
+                                            <a href="profile.html">
+                                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="close-div">
+                                <button type="submit" class="btn btn-close" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div id="services" class="container tab-pane fade"><br>
+                          <ul class="menu-ul">
+                            <li>
+                                <a href="#"><img src="/assets/images/exchange-icon.png">Exchange</a>
+                            </li>  
+                            <li>
+                                <a href="#"><img src="/assets/images/nft-icon.png">NFT ART</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/multiplex-icon.png">Multiplex</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/ott-icon.png">OTT</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/newsdesk-icon.png">Newsdesk</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/street-icon.png">Street</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/newocln-icon.png">Newoclan</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/hastag-icon.png">Hastag</a>
+                            </li>
+                              <li>
+                                <a href="#"><img src="/assets/images/games.png">Games</a>
+                            </li>
+                          </ul>
+                            <div class="user-round">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="user-round-img">
+                                            <img src="/assets/images/avatar.png" class="img-fluid"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="user-round-text">
+                                            <h2>Rakesh Maria<span>9812345678</span><span>pkg@gmail.com</span></h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="user-round-toggle">
+                                            <a href="profile.html">
+                                                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="close-div">
+                                <button type="submit" class="btn btn-close" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div> 
+          </div>
+        
+        
