@@ -50,69 +50,60 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <owl-carousel-o [options]="customOptions">
-   
-                        <ng-container *ngFor="let slide of slides">
-                          <ng-template carouselSlide [id]="slide.id">
-                            <img [src]="slide.img" >
-                          </ng-template>
-                        </ng-container>
-                           
+                        <owl-carousel-o [options]="customOptionsforNew" class="sl-im-pd">
+                            <ng-template carouselSlide>
+                                <div class="sl-img">
+                                    <div class="sl-img-sm">
+                                        <img src="/assets/images/sl-1.png" class="img-fluid">
+                                    </div>
+                                    <div class="round-sl">
+                                        <img src="/assets/images/popcorn.png" class="img-fluid">
+                                    </div>
+                                    <div class="bottom-img">
+                                        <img src="/assets/images/multiplex-bx.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </ng-template>
+                            <ng-template carouselSlide>
+                                <div class="sl-img">
+                                    <div class="sl-img-sm">
+                                        <img src="assets/images/sl-2.png" class="img-fluid">
+                                    </div>
+                                    <div class="round-sl">
+                                        <img src="assets/images/sl-icon-2.png" class="img-fluid">
+                                    </div>
+                                    <div class="bottom-img">
+                                        <img src="assets/images/multiplex-bx.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </ng-template>
+                            <ng-template carouselSlide>
+                                <div class="sl-img">
+                                    <div class="sl-img-sm">
+                                        <img src="assets/images/sl-3.png" class="img-fluid">
+                                    </div>
+                                    <div class="round-sl">
+                                        <img src="assets/images/sl-icon-3.png" class="img-fluid">
+                                    </div>
+                                    <div class="bottom-img">
+                                        <img src="assets/images/multiplex-bx.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </ng-template>
+                            <ng-template carouselSlide>
+                                <div class="sl-img">
+                                    <div class="sl-img-sm">
+                                        <img src="assets/images/sl-4.png" class="img-fluid">
+                                    </div>
+                                    <div class="round-sl">
+                                        <img src="assets/images/sl-icon-4.png" class="img-fluid">
+                                    </div>
+                                    <div class="bottom-img">
+                                        <img src="assets/images/multiplex-bx.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </ng-template>
                         </owl-carousel-o>
-                    <!-- <div class="owl-carousel owl-theme" id="sl-img">
-                        <div class="item">
-                            <div class="sl-img">
-                                <div class="sl-img-sm">
-                                    <img src="assets/images/sl-1.png" class="img-fluid">
-                                </div>
-                                <div class="round-sl">
-                                    <img src="assets/images/popcorn.png" class="img-fluid">
-                                </div>
-                                <div class="bottom-img">
-                                    <img src="assets/images/multiplex-bx.png" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="sl-img">
-                                <div class="sl-img-sm">
-                                    <img src="assets/images/sl-2.png" class="img-fluid">
-                                </div>
-                                <div class="round-sl">
-                                    <img src="assets/images/sl-icon-2.png" class="img-fluid">
-                                </div>
-                                <div class="bottom-img">
-                                    <img src="assets/images/multiplex-bx.png" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="sl-img">
-                                <div class="sl-img-sm">
-                                    <img src="assets/images/sl-3.png" class="img-fluid">
-                                </div>
-                                <div class="round-sl">
-                                    <img src="assets/images/sl-icon-3.png" class="img-fluid">
-                                </div>
-                                <div class="bottom-img">
-                                    <img src="assets/images/multiplex-bx.png" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="sl-img">
-                                <div class="sl-img-sm">
-                                    <img src="assets/images/sl-4.png" class="img-fluid">
-                                </div>
-                                <div class="round-sl">
-                                    <img src="assets/images/sl-icon-4.png" class="img-fluid">
-                                </div>
-                                <div class="bottom-img">
-                                    <img src="assets/images/multiplex-bx.png" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>  
@@ -139,7 +130,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="owl-carousel owl-theme" id="celb">
+
+                    <!-- <div class="owl-carousel owl-theme" id="celb">
                         <div class="item">
                             <a href="#">
                                 <div class="celibraty-main-div">
@@ -188,7 +180,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
           </div>

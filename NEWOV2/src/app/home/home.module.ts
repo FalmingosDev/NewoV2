@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -13,7 +14,9 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
   imports: [
     CommonModule,
     CarouselModule,
-    HomeRoutingModule
+    BrowserAnimationsModule,
+    HomeRoutingModule,
+    
   ]
 })
 export class HomeModule { }
