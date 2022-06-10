@@ -11,6 +11,7 @@ import { EditprofileComponent } from './editprofile/editprofile.component';
 import { ChangepasswordComponent } from './changepassword/changepassword.component';
 import { OtpComponent } from './otp/otp.component';
 import { ProfileComponent } from './profile/profile.component';
+import { WelcomefooterComponent } from './welcomefooter/welcomefooter.component';
 // import { ProfileComponent } from './profile/profile.component';
 
 
@@ -23,6 +24,7 @@ import { ProfileComponent } from './profile/profile.component';
     ChangepasswordComponent,
     OtpComponent,
     ProfileComponent,
+    WelcomefooterComponent
     // ProfileComponent
   ],
   imports: [

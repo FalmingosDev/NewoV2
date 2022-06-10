@@ -41,7 +41,7 @@ export class WelcomeComponent implements OnInit {
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,
-    dots: false,
+    dots: true,
     margin: 10,
     navSpeed: 700,
     navText: ['', ''],
@@ -59,7 +59,7 @@ export class WelcomeComponent implements OnInit {
         items: 3
       }
     },
-    nav: true
+    nav: false
   };
 
 
