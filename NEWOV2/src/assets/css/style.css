@@ -23,6 +23,14 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('../fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 body{
     margin: 0;
     padding: 0;
@@ -219,7 +227,7 @@ body{
     color: #f8bd59;
     text-align: right;
     margin-top: -8px;
-    font-family: 'Poppins';
+    font-family: 'Outfit';
     font-weight: 600;
 }
 .round-sl{
@@ -775,7 +783,7 @@ img {
     background: rgb(237,56,37);
     background: #FFE913;
     background: linear-gradient(to bottom, #ffeb28 0%, #ff0002 100%);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 .sub-text{
