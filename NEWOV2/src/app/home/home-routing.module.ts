@@ -11,13 +11,12 @@ import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
   {path: '',component: WelcomeComponent},
-  {path: '/gallery',component: GalleryComponent},
-  // {path: 'profile',component: ProfileComponent}
-  {path: '/paynow',component: PaynowComponent},
-  {path: '/editprofile',component: EditprofileComponent},
-  {path: '/changepassword',component: ChangepasswordComponent},
-  {path: '/otp',component: OtpComponent},
-  {path: '/profile',component: ProfileComponent}  
+  {path: 'gallery',component: GalleryComponent},
+  {path: 'paynow',component: PaynowComponent},
+  {path: 'editprofile',component: EditprofileComponent},
+  {path: 'changepassword',component: ChangepasswordComponent},
+  {path: 'otp',component: OtpComponent},
+  {path: 'profile',component: ProfileComponent}  
 ];
 
 @NgModule({
