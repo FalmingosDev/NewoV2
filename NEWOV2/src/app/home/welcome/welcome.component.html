@@ -40,7 +40,11 @@
                 </div>
                 <div class="col-6">
                     <div class="join-div">
-                        <a href="#">Join Now</a>
+                        <!-- <a href="#">Join Now</a> -->
+                        <!-- <a href="javascript:void(0)"> -->
+                            <a href="javascript:void(0)" class="join-a-tg" (click)="checkAuth()" *ngIf="isSubscribe">Enjoy Now</a>
+                            <a href="javascript:void(0)" class="join-a-tg" (click)="checkAuth()" *ngIf="isNotSubscribe">Join Now</a>
+                        <!-- </a> -->
                     </div>
                 </div>
             </div>
@@ -130,12 +134,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <owl-carousel-o [options]="customOptionsforcelibraty" class="sl-im-pd" id="celb">
+                    <owl-carousel-o [options]="customOptionsforcelibraty" (translated)="getPassedData()" class="sl-im-pd" id="celb">
                         <ng-template carouselSlide>
                             <a href="#">
                                 <div class="celibraty-main-div">
                                     <div class="celb-img">
                                         <img src="assets/images/cricketer.jpg" class="img-fluid clb-img-sm">
+                                        <!-- <video id="vid1" poster="assets/images/cricketer.jpg" width="100%" height="240" controls>
+                                        <source src="/assets/video/johnty-rodes.mp4" type="video/mp4" /> -->
+                                        <!-- </video> -->
                                         <div class="youtube-icon">
                                             <img src="assets/images/youtube-icon.png" class="img-fluid">
                                         </div>

@@ -5,24 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeheaderComponent } from './home/welcomeheader/welcomeheader.component';
 import { HomeModule } from './home/home.module';
-import { LoginComponent } from './auth/login/login.component';
-import { SignupComponent } from './auth/signup/signup.component';
 import { AuthModule } from './auth/auth.module';
 // import { ProfileComponent } from './profile/profile.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeheaderComponent,
-    LoginComponent,
-    SignupComponent
+    WelcomeheaderComponent
     // ProfileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    AuthModule
+    AuthModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
